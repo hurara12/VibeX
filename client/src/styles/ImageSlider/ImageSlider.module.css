@@ -1,0 +1,24 @@
+.slide {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .textContainer {
+    position: absolute;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
